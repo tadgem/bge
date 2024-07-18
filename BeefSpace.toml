@@ -1,0 +1,11 @@
+FileVersion = 1
+Projects = {bge-core = {Path = "bge-core"}, bge-test = {Path = "bge-test"}, sokol-beef = {Path = "sokol-beef"}}
+
+[Workspace]
+StartupProject = "bge-core"
+
+[Configs.Test.Win32]
+ConfigSelections = {corlib = {Config = "Debug"}}
+
+[Configs.Test.Win64]
+ConfigSelections = {bge-test = {Config = "Test"}, bge-core = {Config = "Test"}}

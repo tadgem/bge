@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", bge-core = "*"}
+
+[Project]
+Name = "bge-test"
+StartupObject = "bge_test.Program"

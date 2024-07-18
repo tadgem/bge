@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", sokol-beef = "*"}
+
+[Project]
+Name = "bge-core"
+TargetType = "BeefLib"
+StartupObject = "bge_core.Program"
