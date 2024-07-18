@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {sokol-clear = {Path = "sokol-clear"}, sokol-beef = {Path = ".."}, sokol-triangle = {Path = "sokol-triangle"}, sokol-mesh = {Path = "sokol-mesh"}}
+
+[Workspace]
+StartupProject = "sokol-mesh"

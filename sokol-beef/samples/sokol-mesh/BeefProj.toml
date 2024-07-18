@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", sokol-beef = "*"}
+
+[Project]
+Name = "sokol-mesh"
+StartupObject = "sokol_mesh.Program"
