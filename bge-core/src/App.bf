@@ -6,6 +6,7 @@ static class Application
 {
 	
 	public static String s_app_name;
+	private static App.Desc _appDesc;
 
 
 	private static void Init()
@@ -47,8 +48,8 @@ static class Application
 	{
 		s_app_name = appName;
 		System.Console.WriteLine($"App Name : {s_app_name} : Run()");
-		App.Desc app_description = CreateAppDescription();
-		App.run(&app_description);
+		_appDesc = CreateAppDescription();
+		App.run(&_appDesc);
 	}
 
 	public static void Shutdown()

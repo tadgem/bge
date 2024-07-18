@@ -9,5 +9,8 @@ namespace sokol
 
 		[LinkName("sapp_sgcontext")]
 		public static extern Gfx.ContextDesc sgcontext();
+
+		[LinkName("sapp_sdtxcontext")]
+		public static extern Debugtext.ContextDesc sdtxcontext();
 	}
 }

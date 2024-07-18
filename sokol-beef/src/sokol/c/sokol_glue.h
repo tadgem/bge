@@ -97,6 +97,10 @@ extern "C" {
 SOKOL_GLUE_API_DECL sg_context_desc sapp_sgcontext(void);
 #endif
 
+#if defined(SOKOL_DEBUGTEXT_INCLUDED) && defined(SOKOL_APP_INCLUDED)
+SOKOL_GLUE_API_DECL sdtx_context_desc_t sapp_sdtxcontext(void);
+#endif
+
 #ifdef __cplusplus
 } /* extern "C" */
 #endif
@@ -133,5 +137,20 @@ SOKOL_API_IMPL sg_context_desc sapp_sgcontext(void) {
     return desc;
 }
 #endif
+#if defined(SOKOL_DEBUGTEXT_INCLUDED) && defined(SOKOL_APP_INCLUDED)
+SOKOL_API_IMPL sdtx_context_desc_t sapp_sdtxcontext(void) {
+    sdtx_context_desc_t desc;
+    memset(&desc, 0, sizeof(desc));
+    desc.char_buf_size = 4096;
+    desc.canvas_width = sapp_width();
+    desc.canvas_height = sapp_height();
+    desc.tab_width = 4;
+    desc.color_format = (sg_pixel_format) sapp_color_format();
+    desc.depth_format = (sg_pixel_format) sapp_depth_format();
+    desc.sample_count = sapp_sample_count();
+    return desc;
+}
+#endif
+
 
 #endif /* SOKOL_GLUE_IMPL */

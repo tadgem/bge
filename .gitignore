@@ -33,3 +33,6 @@
 /recovery
 /recovery
 /build/Debug_Win64
+/build/Debug_Win64
+\build\Debug_Win64
+\build\Debug_Win64
