@@ -1,7 +1,7 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["bge-core\\src\\App.bf", "bge-core\\src\\Maths.bf", "bge-test\\src\\Test.bf", "d:\\a\\_work\\1\\s\\src\\vctools\\crt\\vcstartup\\src\\startup\\exe_common.inl"]
+RecentFilesList = ["sokol-beef\\src\\sokol\\gfx.bf", "bge-core\\src\\Renderer.bf", "bge-core\\src\\App.bf", "d:\\a\\_work\\1\\s\\src\\vctools\\crt\\vcstartup\\src\\startup\\exe_common.inl", "bge-core\\src\\Maths.bf"]
 
 [MainWindow]
 X = 1179
@@ -22,139 +22,161 @@ Type = "DockingFrame"
 SplitType = 1
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
-RequestedWidth = 200.0
-RequestedHeight = 200.0
+RequestedWidth = 282.0
+RequestedHeight = 459.0
+SizePriority = 866.0
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
-TabWidth = 112.0968
+TabWidth = 110.8334
 Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 3235.68
+RequestedHeight = 1256.68
+SizePriority = 3235.68
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "gfx.bf"
+TabWidth = 70.83335
+Type = "SourceViewPanel"
+FilePath = "sokol-beef\\src\\sokol\\gfx.bf"
+CursorPos = 12180
+VertPos = 11994.0
+ProjectName = "sokol-beef"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Renderer.bf"
+TabWidth = 93.33335
+Type = "SourceViewPanel"
+FilePath = "bge-core\\src\\Renderer.bf"
+CursorPos = 1918
+VertPos = 1277.4
+ProjectName = "bge-core"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
 IsFillWidget = true
 Permanent = true
 RequestedWidth = 150.0
 RequestedHeight = 150.0
-SizePriority = 150.0
-DefaultDocumentsTabbedView = true
+SizePriority = 3235.68
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "sokol_app.h"
+TabWidth = 95.00002
+Type = "SourceViewPanel"
+FilePath = "sokol-beef\\src\\sokol\\c\\sokol_app.h"
+CursorPos = 114521
+VertPos = 51060.02
+ProjectName = "sokol-beef"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
 TabLabel = "Maths.bf"
-TabWidth = 87.90323
+TabWidth = 77.50002
 Type = "SourceViewPanel"
 FilePath = "bge-core\\src\\Maths.bf"
-CursorPos = 1763
+CursorPos = 96
+VertPos = 798.0
 ProjectName = "bge-core"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "exe_common.inl"
-TabWidth = 129.8387
+TabWidth = 119.1667
 Type = "SourceViewPanel"
 FilePath = "d:\\a\\_work\\1\\s\\src\\vctools\\crt\\vcstartup\\src\\startup\\exe_common.inl"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Test.bf"
-TabWidth = 75.0
-Type = "SourceViewPanel"
-FilePath = "bge-test\\src\\Test.bf"
-CursorPos = 175
-ProjectName = "bge-test"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
 TabLabel = "App.bf"
-TabWidth = 75.80645
+TabWidth = 67.50001
 Type = "SourceViewPanel"
 FilePath = "bge-core\\src\\App.bf"
-CursorPos = 51
+CursorPos = 258
 ProjectName = "bge-core"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "glue.bf"
+TabWidth = 68.33334
+Type = "SourceViewPanel"
+FilePath = "sokol-beef\\src\\sokol\\glue.bf"
+CursorPos = 125
+ProjectName = "sokol-beef"
 
 [[MainDockingFrame.DockedWidgets]]
 RequestedWidth = 250.0
-RequestedHeight = 65.0
+RequestedHeight = 456.0
 Type = "DockingFrame"
 SplitType = 1
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 250.0
 RequestedHeight = 250.0
-SizePriority = 3438.0
+SizePriority = 0.2792321
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Diagnostics"
-TabWidth = 114.5161
+TabWidth = 114.1667
 Type = "DiagnosticsPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Memory"
-TabWidth = 97.58064
+TabWidth = 95.83334
 Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
 RequestedWidth = 300.0
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Watch"
-TabWidth = 85.48387
+TabWidth = 85.00001
 Type = "WatchPanel"
-Columns = [{Width = 248.0}, {Width = 248.0}, {Width = 248.0}]
+Columns = [{Width = 240.0}, {Width = 240.0}, {Width = 240.0}]
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Auto"
-TabWidth = 76.6129
+TabWidth = 76.66667
 Type = "AutoWatchPanel"
-Columns = [{Width = 248.0}, {Width = 248.0}, {Width = 248.0}]
+Columns = [{Width = 240.0}, {Width = 240.0}, {Width = 240.0}]
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 250.0
 RequestedHeight = 250.0
-SizePriority = 3438.0
+SizePriority = 0.7207679
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Find Results"
+TabWidth = 115.0
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Threads"
-TabWidth = 94.35484
+TabWidth = 93.33334
 Type = "ThreadPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Call Stack"
-TabWidth = 104.0323
+TabWidth = 103.3333
 Type = "CallStackPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Immediate"
-TabWidth = 109.6774
+TabWidth = 110.0
 Type = "ImmediatePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
 TabLabel = "Output"
-TabWidth = 89.51613
+TabWidth = 88.33334
 Type = "OutputPanel"
-
-[[Breakpoints]]
-File = "bge-test\\src\\Test.bf"
-Line = 10
-Column = 0
-
-[[Breakpoints]]
-File = "bge-test\\src\\Test.bf"
-Line = 11
-Column = 0
-
-[[Breakpoints]]
-File = "bge-test\\src\\Test.bf"
-Line = 12
-Column = 0
-
-[[Breakpoints]]
-File = "bge-test\\src\\Test.bf"
-Line = 13
-Column = 0
 
 [[BookmarkFolders]]
 Title = ""
