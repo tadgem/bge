@@ -3,10 +3,10 @@ namespace bge_core;
 
 struct Vector2
 {
-	double x;
-	double y;
+	float x;
+	float y;
 
-	public this (double x, double y)
+	public this (float x, float y)
 	{
 		this.x = x;
 		this.y = y;
@@ -46,7 +46,7 @@ struct Vector2
 	    return lhs.y <=> rhs.y;
 	}
 
-	public static operator Vector2(double[2] val)
+	public static operator Vector2(float[2] val)
 	{
 	    return .(val[0], val[1]);
 	}
@@ -66,11 +66,11 @@ struct Vector2
 
 struct Vector3
 {
-	double x;
-	double y;
-	double z;
+	float x;
+	float y;
+	float z;
 
-	public this (double x, double y, double z)
+	public this (float x, float y, float z)
 	{
 		this.x = x;
 		this.y = y;
@@ -115,7 +115,7 @@ struct Vector3
 	    return lhs.z <=> rhs.z;
 	}
 
-	public static operator Vector3(double[3] val)
+	public static operator Vector3(float[3] val)
 	{
 	    return .(val[0], val[1], val[2]);
 	}
